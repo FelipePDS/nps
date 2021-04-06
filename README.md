@@ -1,7 +1,5 @@
 # <h1 align="center">NPS</h1>
 
-<h4 align="center">NPS API (Net Promoter Score) <br>From the evaluation of a product, calculates a customer's experience, loyalty and recommendation</h4>
-
 <p align="center">
     <a href=""><img src="https://img.shields.io/github/license/FelipePDS/nps"></a> 
     <img src="https://img.shields.io/static/v1?label=status&message=under+development&color=F36565&style=flat&logo=reverbNation&logoColor=white"/>
@@ -13,6 +11,8 @@
     <img src="https://img.shields.io/github/forks/FelipePDS/nps?style=social">
     <img src="https://img.shields.io/github/stars/FelipePDS/nps?style=social">
 </p>
+
+<h4 align="center">NPS API (Net Promoter Score) <br>From the evaluation of a product, calculates a customer's experience, loyalty and recommendation</h4>
 
 <blockquote>:construction: under development :construction:</blockquote>
 
@@ -50,13 +50,15 @@
 <br>
 
 <h1 id="project">:bulb: Project</h1>
-<p>know the project, the technologies used for its construction and if you want to use the API, see how to use it.</p>
-
-<br>
+<p>know the project, the technologies used for its construction and if you want to use the API, see how to use it.</p><br>
 
 <h2 id="about">:thought_balloon: About</h2>
 <p>
-
+    The construction of this NPS (Net Promoter Score) API was to facilitate the process of calculating some evaluation, being modifiable to the environment and the subject that will be used. <br><br>
+    The process is based on 3 things as a basis: <br>
+    :bust_in_silhouette: :mag: :star: The customer, survey, and customer evaluation, <br>
+    In the evaluation screen there will be a title and a description asking the customer to evaluate, then the customer will post his evaluation that will be saved. <br><br>
+    See the following example ...
 </p>
 
 <h3 id="how-it-works-the-api">Example of How it Works</h3>
@@ -70,26 +72,26 @@
 
 <h3 id="techs-backend">Backend</h3>
 <ul>
-    <li>Codes: <kbd><a href="">Node.js</a></kbd> && <kbd><a href="">Typescript</a></kbd> → <kbd><a href="">ts-node</a></kbd></li>
-    <li>Server: <kbd><a href="">Express</a></kbd></li>
+    <li>Codes: <a href="">Node.js</a> && <a href="">Typescript</a> → <kbd><a href="">ts-node</a></kbd></li>
+    <li>Server: <a href="">Express</a></li>
     <li>Database:</li>
     <ul>
-        <li><kbd><a href="">SQLite</a></kbd></li>
-        <li>Migrations: <kbd><a href="">Typeorm</a></kbd></li>
-        <li><kbd><a href="">Reflect Metadata</a></kbd></li>
-        <li>ID Generator: <kbd><a href="">UUID</a></kbd></li>
+        <li><a href="">SQLite</a></li>
+        <li>Migrations: <a href="">Typeorm</a></li>
+        <li><a href="">Reflect Metadata</a></li>
+        <li>ID Generator: <a href="">UUID</a></li>
     </ul>
-    <li>Tests: <kbd><a href="">Jest Tests</a></kbd></li>
+    <li>Tests: <a href="">Jest Tests</a></li>
 </ul>
-<blockquote>Check The File: <kbd><a href="">package.json</a></kbd></blockquote>
+<p>→ Check the file: <kbd><a href="">package.json</a></kbd></p>
 
 <h3 id="techs-for-dev">For Dev</h3>
 <ul>
-    <li>Code Editor: <kbd><a href="">Visual Studio Code</a></kbd></li>
-    <li>Terminal: <kbd><a href="">Git Bash</a></kbd></li>
-    <li>Package Manager: <kbd><a href="">NPM</a></kbd> or <kbd><a href="">Yarn</a></kbd></li>
-    <li>API REST Tests: <kbd><a href="">Insomnia</a></kbd></li>
-    <li>Database Queries: <kbd><a href="">Beekeeper Studio</a></kbd></li>
+    <li>Code Editor: <a href="">Visual Studio Code</a></li>
+    <li>Terminal: <a href="">Git Bash</a></li>
+    <li>Package Manager: <a href="">NPM</a> or <a href="">Yarn</a></li>
+    <li>API REST Tests: <a href="">Insomnia</a></li>
+    <li>Database Queries: <a href="">Beekeeper Studio</a></li>
 </ul>
 
 <br>
