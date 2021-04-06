@@ -70,7 +70,7 @@
 
 <h3 id="techs-backend">Backend</h3>
 <ul>
-    <li>Codes: <a href="">Node.js</a> && <a href="">Typescript</a> → <a href="">ts-node</a></li>
+    <li>Codes: <a href="">Node.js</a> && <a href="">Typescript</a> → <kbd><a href="">ts-node</a></kbd></li>
     <li>Server: <a href="">Express</a></li>
     <li>Database:</li>
     <ul>
@@ -81,7 +81,7 @@
     </ul>
     <li>Tests: <a href="">Jest Tests</a></li>
 </ul>
-<blockquote>Check The File: <a href="">package.json</a></blockquote>
+<blockquote>Check The File: <kbd><a href="">package.json</a></kbd></blockquote>
 
 <h3 id="techs-for-dev">For Dev</h3>
 <ul>
