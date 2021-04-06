@@ -56,10 +56,10 @@
 
 <h2 id="about">:thought_balloon: About</h2>
 <p>
-    The construction of this NPS (Net Promoter Score) API was to facilitate the process of calculating some evaluation, being modifiable to the environment and the subject that will be used. <br>
+    The construction of this NPS (Net Promoter Score) API was to facilitate the process of calculating some evaluation, being modifiable to the environment and the subject that will be used. <br><br>
     The process is based on 3 things as a basis: <br>
-    The customer, survey, and customer evaluation, <br>
-    The customer with the login made to stay on the evaluation screen, the survey will have a title, a description asking him to evaluate and he will put his evaluation, so that it is saved. <br>
+    :bust_in_silhouette: :mag: :star: The customer, survey, and customer evaluation, <br>
+    The customer with the login made to stay on the evaluation screen, the survey will have a title, a description asking him to evaluate and he will put his evaluation, so that it is saved. <br><br>
     See the following example ...
 </p>
 
