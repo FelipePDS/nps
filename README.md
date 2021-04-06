@@ -85,7 +85,7 @@
     </ul>
     <li>Tests: <a href="">Jest Tests</a></li>
 </ul>
-<blockquote>Check The File: <kbd><a href="">package.json</a></kbd></blockquote>
+<p>→ Check the file: <kbd><a href="">package.json</a></kbd></p>
 
 <h3 id="techs-for-dev">For Dev</h3>
 <ul>
