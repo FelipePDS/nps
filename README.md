@@ -70,26 +70,26 @@
 
 <h3 id="techs-backend">Backend</h3>
 <ul>
-    <li>Codes: <kbd><a href="">Node.js</a></kbd> && <kbd><a href="">Typescript</a></kbd> → <kbd><a href="">ts-node</a></kbd></li>
-    <li>Server: <kbd><a href="">Express</a></kbd></li>
+    <li>Codes: <a href="">Node.js</a> && <a href="">Typescript</a> → <a href="">ts-node</a></li>
+    <li>Server: <a href="">Express</a></li>
     <li>Database:</li>
     <ul>
-        <li><kbd><a href="">SQLite</a></kbd></li>
-        <li>Migrations: <kbd><a href="">Typeorm</a></kbd></li>
-        <li><kbd><a href="">Reflect Metadata</a></kbd></li>
-        <li>ID Generator: <kbd><a href="">UUID</a></kbd></li>
+        <li><a href="">SQLite</a></li>
+        <li>Migrations: <a href="">Typeorm</a></li>
+        <li><a href="">Reflect Metadata</a></li>
+        <li>ID Generator: <a href="">UUID</a></li>
     </ul>
-    <li>Tests: <kbd><a href="">Jest Tests</a></kbd></li>
+    <li>Tests: <a href="">Jest Tests</a></li>
 </ul>
-<blockquote>Check The File: <kbd><a href="">package.json</a></kbd></blockquote>
+<blockquote>Check The File: <a href="">package.json</a></blockquote>
 
 <h3 id="techs-for-dev">For Dev</h3>
 <ul>
-    <li>Code Editor: <kbd><a href="">Visual Studio Code</a></kbd></li>
-    <li>Terminal: <kbd><a href="">Git Bash</a></kbd></li>
-    <li>Package Manager: <kbd><a href="">NPM</a></kbd> or <kbd><a href="">Yarn</a></kbd></li>
-    <li>API REST Tests: <kbd><a href="">Insomnia</a></kbd></li>
-    <li>Database Queries: <kbd><a href="">Beekeeper Studio</a></kbd></li>
+    <li>Code Editor: <a href="">Visual Studio Code</a></li>
+    <li>Terminal: <a href="">Git Bash</a></li>
+    <li>Package Manager: <a href="">NPM</a> or <a href="">Yarn</a></li>
+    <li>API REST Tests: <a href="">Insomnia</a></li>
+    <li>Database Queries: <a href="">Beekeeper Studio</a></li>
 </ul>
 
 <br>
