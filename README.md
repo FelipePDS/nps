@@ -56,7 +56,11 @@
 
 <h2 id="about">:thought_balloon: About</h2>
 <p>
-    The construction of this NPS API was to facilitate the process of calculating some evaluation, being modifiable to the environment and the subject that will be used.
+    The construction of this NPS (Net Promoter Score) API was to facilitate the process of calculating some evaluation, being modifiable to the environment and the subject that will be used. <br>
+    The process is based on 3 things as a basis: <br>
+    The customer, survey, and customer evaluation, <br>
+    The customer with the login made to stay on the evaluation screen, the survey will have a title, a description asking him to evaluate and he will put his evaluation, so that it is saved. <br>
+    See the following example ...
 </p>
 
 <h3 id="how-it-works-the-api">Example of How it Works</h3>
@@ -81,7 +85,7 @@
     </ul>
     <li>Tests: <a href="">Jest Tests</a></li>
 </ul>
-<blockquote>Check the file: <kbd><a href="">package.json</a></kbd></blockquote>
+<blockquote>Check The File: <kbd><a href="">package.json</a></kbd></blockquote>
 
 <h3 id="techs-for-dev">For Dev</h3>
 <ul>
