@@ -1,7 +1,5 @@
 # <h1 align="center">NPS</h1>
 
-<h4 align="center">NPS API (Net Promoter Score) <br>From the evaluation of a product, calculates a customer's experience, loyalty and recommendation</h4>
-
 <p align="center">
     <a href=""><img src="https://img.shields.io/github/license/FelipePDS/nps"></a> 
     <img src="https://img.shields.io/static/v1?label=status&message=under+development&color=F36565&style=flat&logo=reverbNation&logoColor=white"/>
@@ -13,6 +11,8 @@
     <img src="https://img.shields.io/github/forks/FelipePDS/nps?style=social">
     <img src="https://img.shields.io/github/stars/FelipePDS/nps?style=social">
 </p>
+
+<h4 align="center">NPS API (Net Promoter Score) <br>From the evaluation of a product, calculates a customer's experience, loyalty and recommendation</h4>
 
 <blockquote>:construction: under development :construction:</blockquote>
 
@@ -56,7 +56,7 @@
 
 <h2 id="about">:thought_balloon: About</h2>
 <p>
-
+    The construction of this NPS API was to facilitate the process of calculating some evaluation, being modifiable to the environment and the subject that will be used.
 </p>
 
 <h3 id="how-it-works-the-api">Example of How it Works</h3>
