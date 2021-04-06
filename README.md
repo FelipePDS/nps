@@ -50,7 +50,7 @@
 <br>
 
 <h1 id="project">:bulb: Project</h1>
-<p>know the project, the technologies used for its construction and if you want to use the API, see how to use it.</p>
+<p>know the project, the technologies used for its construction and if you want to use the API, see how to use it.</p><br>
 
 <h2 id="about">:thought_balloon: About</h2>
 <p>
