@@ -80,6 +80,7 @@
         <li><a href="">Reflect Metadata</a></li>
         <li>ID Generator: <a href="">UUID</a></li>
     </ul>
+    <li>Send Mail: <a href="">Nodemailer</a></li>
     <li>Tests: <a href="">Jest Tests</a></li>
 </ul>
 <p>→ Check the file: <kbd><a href="">package.json</a></kbd></p>
