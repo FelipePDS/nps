@@ -12,7 +12,7 @@
     <img src="https://img.shields.io/github/stars/FelipePDS/nps?style=social">
 </p>
 
-<h4 align="center">NPS API (Net Promoter Score) <br>Calculation of the NPS of a company, in which it is provided based on the evaluation of the users. The company can calculate the NPS for the diverses subjects it selects. <a href="">Learn more</a></h4>
+<h4 align="center">NPS API (Net Promoter Score) <br>Calculation of the NPS of a company, in which it is provided based on the evaluation of the users. The company can calculate the NPS for the diverses subjects it selects. <a href="#about">Learn more</a></h4>
 
 <blockquote>:construction: under development :construction:</blockquote>
 
@@ -54,11 +54,10 @@
 
 <h2 id="about">:thought_balloon: About</h2>
 <p>
-    The construction of this NPS (Net Promoter Score) API was to facilitate the process of calculating some evaluation, being modifiable to the environment and the subject that will be used. <br><br>
+    The construction of this NPS API (Net Promoter Score) was to facilitate the evaluation process of a company for example. This questionnaire will be sent to the user's e-mail (which may have the text and style you want), where he will give his rating in relation to the subject and thus the NPS will be calculated based on the evaluation of all users. <br><br>
     The process is based on 3 things as a basis: <br>
-    :bust_in_silhouette: :mag: :star: The customer, survey, and customer evaluation, <br>
-    In the evaluation screen there will be a title and a description asking the customer to evaluate, then the customer will post his evaluation that will be saved. <br><br>
-    See the following example ...
+    :bust_in_silhouette: :mag: :star: The survey, the user, and the user evaluation, <br>
+    Survey email for evaluation (Title and description) → User → User evaluation → Saved evaluation correlating the user, the survey and the evaluation → Total NPS calculation, see an example:
 </p>
 
 <h3 id="how-it-works-the-api">Example of How it Works</h3>
