@@ -12,7 +12,7 @@
     <img src="https://img.shields.io/github/stars/FelipePDS/nps?style=social">
 </p>
 
-<h4 align="center">NPS API (Net Promoter Score) <br>From the evaluation of a product, calculates a customer's experience, loyalty and recommendation</h4>
+<h4 align="center">NPS API (Net Promoter Score) <br>Calculation of the NPS of a company, in which it is provided based on the evaluation of the users. The company can calculate the NPS for the diverses subjects it selects. <a href="">Learn more</a></h4>
 
 <blockquote>:construction: under development :construction:</blockquote>
 
