@@ -1,8 +1,11 @@
 import nodemailer, { Transporter } from "nodemailer"
+import handlebars from "handlebars"
+
+import { resolve } from "path"
+import { readFileSync } from "fs"
 
 class SendMailService {
 
-    // doing an email test (it won't actually be delivered)
     private client: Transporter
     constructor() {
         nodemailer.createTestAccount().then(account => {
@@ -21,15 +24,25 @@ class SendMailService {
     }
 
     async execute(to: string, subject: string, body: string) {
+        const npsMailPath = resolve(__dirname, "..", "views", "emails", "npsMail.hbs") // get project directory
+        const templateFileContent = readFileSync(npsMailPath).toString("utf-8") // reads file from directory
+
+        const mailTemplateParse = handlebars.compile(templateFileContent) // compiles the template file to be sent as an email by passing the variables that are present in it
+        const html = mailTemplateParse({
+            name: to,
+            title: subject,
+            description: body
+        })
+
         const message = await this.client.sendMail({
             to,
             subject,
-            html: body,
+            html,
             from: "NPS <noreplace@nps.com.br>"
         })
 
-        console.log('Message sent: %s', message.messageId);
-        console.log('Preview URL: %s', nodemailer.getTestMessageUrl(message));
+        console.log('Message sent: %s', message.messageId)
+        console.log('Preview URL: %s', nodemailer.getTestMessageUrl(message))
     }
 
 }
