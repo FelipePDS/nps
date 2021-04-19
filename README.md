@@ -164,10 +164,9 @@ $ npm dev
 </ul>
 
 <h4>:bust_in_silhouette: User</h4>
-<p>/users (POST Method) <br> (Example):</p>
 
 ``` javascript
-// users (POST Method)
+/* baseURL/users (POST Method) */
 {
    "name": "User Example",
    "email": "example@mail.com"
@@ -176,9 +175,9 @@ $ npm dev
 
 <br>
 <h4>:mag: Survey</h4>
-<p>/surveys (POST Method) <br> (Example):</p>
 
 ``` json
+/* baseURL/surveys (POST Method) */
 {
    "title": "Give your evaluation:",
    "description": "From 0 to 10, how much would you recommend Rocketseat?"
@@ -187,9 +186,9 @@ $ npm dev
 
 <br>
 <h4>:email: Send Mail</h4>
-<p>/sendMail (POST Method) <br> (Example):</p>
 
 ``` json
+/* baseURL/sendMail (POST Method) */
 {
    "email": "example@mail.com",
    "survey_id": "idDeAlgumaPesquisaSalvaNoSistema"
@@ -198,7 +197,7 @@ $ npm dev
 
 <br>
 <h4>:star: NPS Calculate</h4>
-<p>/nps/:survey_id (GET Method)</p>
+<p><code>baseURL/nps/:survey_id</code> (GET Method)</p>
 
 <br>
 
