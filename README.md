@@ -236,7 +236,7 @@ $ git pull origin master
 <br>
 
 <h2 id="references">:anchor: References (materials)</h2>
-<p>The entire project was developed during the :rocket: RocketSeat NLW event, and was aided through documentation as well...</p>
+<p>The entire project was developed during the :rocket: <a href="https://rocketseat.com.br/">RocketSeat</a> NLW event, and was aided through documentation as well...</p>
 
 <ul>
     <li><a href="https://www.npmjs.com/">NPM</a> or <a href="https://yarnpkg.com/">Yarn</a></li>
