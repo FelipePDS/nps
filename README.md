@@ -105,7 +105,7 @@
     <br><br>
     :game_die: See data modeling to understand a little about its structure:
     <br><br>
-    <img src="https://github.com/FelipePDS/nps/blob/master/.github/images/data-modeling.png"/>
+    <img width="75%" src="https://github.com/FelipePDS/nps/blob/master/.github/images/data-modeling.png"/>
 </p>
 
 <h3 id="how-to-clone-the-api">:open_file_folder: How to Clone</h3>
@@ -128,6 +128,16 @@ $ cd nps
 $ yarn add
 # OR
 $ npm install
+```
+
+<p>Run the Database:</p>
+
+``` bash
+# Execução feita com o typeorm
+
+$ yarn typeorm:run
+# OR
+$ npm typeorm:run
 ```
 
 <p>
