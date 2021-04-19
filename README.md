@@ -75,28 +75,28 @@
 
 <h3 id="techs-backend">Backend</h3>
 <ul>
-    <li>Codes: <a href="">Node.js</a> && <a href="">Typescript</a> → <kbd><a href="">ts-node</a></kbd></li>
-    <li>Server: <a href="">Express</a></li>
+    <li>Codes: <a href="https://nodejs.org/">Node.js</a> && <a href="https://www.typescriptlang.org/">Typescript</a> → <kbd><a href="https://www.npmjs.com/package/ts-node">ts-node</a></kbd></li>
+    <li>Server: <a href="https://expressjs.com/pt-br/">Express</a></li>
     <li>Database:</li>
     <ul>
-        <li><a href="">SQLite</a></li>
-        <li>Migrations: <a href="">Typeorm</a></li>
-        <li><a href="">Reflect Metadata</a></li>
-        <li>ID Generator: <a href="">UUID</a></li>
+        <li><a href="https://www.sqlite.org/">SQLite</a></li>
+        <li>Migrations: <a href="https://typeorm.io/">Typeorm</a></li>
+        <li><a href="https://www.npmjs.com/package/reflect-metadata">Reflect Metadata</a></li>
+        <li>ID Generator: <a href="https://www.npmjs.com/package/uuid">UUID</a></li>
     </ul>
-    <li>Send Mail: <a href="">Nodemailer</a></li>
-    <li>Tests: <a href="">Jest Tests</a></li>
-    <li>API Validation: <a href="">Yup</a></li>
+    <li>Send Mail: <a href="https://nodemailer.com/">Nodemailer</a></li>
+    <li>Tests: <a href="https://jestjs.io/pt-BR/">Jest Tests</a></li>
+    <li>API Validation: <a href="https://www.npmjs.com/package/yup">Yup</a></li>
 </ul>
-<p>→ Check the file: <kbd><a href="">package.json</a></kbd></p>
+<p>→ Check the file: <kbd><a href="https://github.com/FelipePDS/nps/blob/master/package.json">package.json</a></kbd></p>
 
 <h3 id="techs-for-dev">For Dev</h3>
 <ul>
-    <li>Code Editor: <a href="">Visual Studio Code</a></li>
-    <li>Terminal: <a href="">Git Bash</a></li>
-    <li>Package Manager: <a href="">NPM</a> or <a href="">Yarn</a></li>
-    <li>API REST Tests: <a href="">Insomnia</a></li>
-    <li>Database Queries: <a href="">Beekeeper Studio</a></li>
+    <li>Code Editor: <a href="https://code.visualstudio.com/">Visual Studio Code</a></li>
+    <li>Terminal: <a href="https://git-scm.com/downloads">Git Bash</a></li>
+    <li>Package Manager: <a href="https://www.npmjs.com/">NPM</a> or <a href="https://yarnpkg.com/">Yarn</a></li>
+    <li>API REST Tests: <a href="https://insomnia.rest/download">Insomnia</a></li>
+    <li>Database Queries: <a href="https://www.beekeeperstudio.io/">Beekeeper Studio</a></li>
 </ul>
 
 <br>
