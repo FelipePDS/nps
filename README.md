@@ -110,7 +110,7 @@
 
 <h3 id="how-to-clone-the-api">:open_file_folder: How to Clone</h3>
 <p>
-    To perform your cloning we need the <kdb><a href="">Gitbash</a></kdb> terminal, which we will do using commands that already automate some processes...
+    To perform your cloning we need the <kbd><a href="">Gitbash</a></kbd> terminal, which we will do using commands that already automate some processes...
 </p>
 
 ``` bash
