@@ -152,7 +152,7 @@ $ npm dev
 ```
 
 <br>
-<p>Para fazer os testes de execução (API Rest) instale o <kbd><a href="https://insomnia.rest/download">Insomnia</a></kbd>. Assim será possível enviar requisições para as rotas...</p>
+<p>To perform the execution tests (API Rest) install the <kbd><a href="https://insomnia.rest/download">Insomnia</a></kbd>. Thus it will be possible to send requests for routes...</p>
 
 <blockquote>Take a look at the <kbd><a href="https://github.com/FelipePDS/nps/blob/master/src/router.ts">router.ts</a></kbd> file to check the routes and make requests</blockquote>
 
@@ -193,7 +193,7 @@ $ npm dev
 /* baseURL/sendMail (POST Method) */
 {
    "email": "example@mail.com",
-   "survey_id": "idDeAlgumaPesquisaSalvaNoSistema"
+   "survey_id": "idOfSomeSearchSavedInTheSystem"
 }
 ```
 
