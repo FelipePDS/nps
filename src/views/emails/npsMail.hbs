@@ -1,139 +1,155 @@
-<style>
-    .mail-container {
-        width: 800px;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mail Test</title>
 
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        align-content: center;
-        flex-direction: column;
+    <style>
+        .mail-container {
+            width: 800px;
 
-        font-family: Arial, Helvetica, sans-serif;
-        color: #202024;
-    }
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            flex-direction: column;
 
-    .mail-container h2 {
-        color: #4c4c4c;
-    }
+            font-family: Arial, Helvetica, sans-serif;
+            color: #cacadb;
+            background-color: #202024;
+        }
 
-    .mail-container .subject {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
+        .mail-container img {
+            margin: 1rem;
+        }
 
-        margin: .6rem 0 1.5rem 0;
-    }
+        .mail-container h2 {
+            color: #e9e9f3;
+        }
 
-    .mail-container .subject h2 {
-        margin-bottom: 0;
-    }
+        .mail-container .subject {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
 
-    .mail-container .subject strong {
-        color: #555;
-    }
+            margin: .6rem 0 1.5rem 0;
+        }
 
-    .mail-container .level {
-        display: flex;
-        justify-content: space-between;
+        .mail-container .subject h2 {
+            margin-bottom: 0;
+        }
 
-        width: 310px;
-        margin-bottom: .3rem;
-    }
+        .mail-container .subject strong {
+            /*color: #8b8ba8;*/
+        }
+    
+        .mail-container .level {
+            display: flex;
+            justify-content: space-between;
+    
+            width: 310px;
+            margin-bottom: .3rem;
+        }
 
-    .mail-container .level span:first-child {
-        color: #f36565;
-    }
+        .mail-container .level span:first-child {
+            color: #f36565;
+        }
 
-    .mail-container .level span:last-child {
-        color: #29d476;
-    }
+        .mail-container .level span:last-child {
+            color: #29d476;
+        }
+    
+        .mail-container .answers {
+            display: flex;
+            justify-content: center;
+    
+            width: 450px;
+        }
+    
+        .mail-container .answers .value {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            padding: 10px;
+            margin: 0 2px;
+            width: 1rem;
+    
+            border-radius: 50%;
+    
+            background-color: #8257e6;
+            color: #FFF;
+    
+            text-decoration: none;
 
-    .mail-container .answers {
-        display: flex;
-        justify-content: center;
+            transition: .2s;
+        }
 
-        width: 450px;
-    }
+        .mail-container .answers .value:hover {
+            background-color: #744ad8;
+        }
 
-    .mail-container .answers .value {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        
-        padding: 10px;
-        margin: 0 2px;
-        width: 1rem;
+        .mail-container footer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
 
-        border-radius: 50%;
+            width: 60%;
+            padding: .8rem;
 
-        background-color: #8257e6;
-        color: #FFF;
+            font-size: .9rem;
 
-        text-decoration: none;
+            border-top: 1px #282831 solid;
 
-        transition: .2s;
-    }
+            color: #5e5e74;
+        }
 
-    .mail-container .answers .value:hover {
-        background-color: #744ad8;
-    }
+        .mail-container footer h3 {
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="mail-container">
+        <img width="200" src="https://lh3.googleusercontent.com/proxy/afUwVvca6zoXfIsO_ZxW-6S-gjLoKk92QTcYXTM0e-Z2t4Ijl2a5-Y_hmmDQk0Z36Fzt0doLDk5NuI78OmnLUkzbzOc52hw5tYumw5RSeUlkjQh8CSo" alt="Rocketseat">
 
-    .mail-container footer {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-
-        width: 60%;
-        padding: .8rem;
-
-        font-size: .9rem;
-
-        border-top: 1px #2929304b solid;
-
-        color: #9292ad;
-    }
-
-    .mail-container footer h3 {
-        margin-top: 0;
-    }
-</style>
-
-<div class="mail-container">
-    <img width="130" src="https://rocketseat.gallerycdn.vsassets.io/extensions/rocketseat/rocketseatreactnative/3.0.1/1588456740326/Microsoft.VisualStudio.Services.Icons.Default" alt="Rocketseat">
-
-    <label>Olá <strong>{{ name }}</strong>! Tudo bem? Aqui é a Rocketseat</label>
-
-    <div class="subject">
-        <h2>{{ title }}</h2>
+        <label>Olá <strong>{{ name }}</strong>! Tudo bem? Aqui é a Rocketseat</label>
+    
+        <div class="subject">
+            <h2>{{ title }}</h2>
+            <br>
+            <strong>{{ description }}</strong>
+        </div>
+    
+        <div class="level">
+            <span>Pouco provável &#9785;</span>
+            <span>Muito provável &#9786;</span>
+        </div>
+    
+        <div class="answers">
+            <a class="value" href="{{ link }}/1?su={{ id }}">1</a>
+            <a class="value" href="{{ link }}/2?su={{ id }}">2</a>
+            <a class="value" href="{{ link }}/3?su={{ id }}">3</a>
+            <a class="value" href="{{ link }}/4?su={{ id }}">4</a>
+            <a class="value" href="{{ link }}/5?su={{ id }}">5</a>
+            <a class="value" href="{{ link }}/6?su={{ id }}">6</a>
+            <a class="value" href="{{ link }}/7?su={{ id }}">7</a>
+            <a class="value" href="{{ link }}/8?su={{ id }}">8</a>
+            <a class="value" href="{{ link }}/9?su={{ id }}">9</a>
+            <a class="value" href="{{ link }}/10?su={{ id }}">10</a>
+        </div>
+    
         <br>
-        <strong>{{ description }}</strong>
+        <br>
+    
+        <footer>
+            <strong>&#9734; Sua opinião é muito importante para nós &#9734;</strong>
+            <h3>Equipe &#10084; <strong>NLW</strong></h3>
+        </footer>
     </div>
-
-    <div class="level">
-        <span>Pouco provável &#9785;</span>
-        <span>Muito provável &#9786;</span>
-    </div>
-
-    <div class="answers">
-        <a class="value" href="{{ link }}/1?su={{ id }}">1</a>
-        <a class="value" href="{{ link }}/2?su={{ id }}">2</a>
-        <a class="value" href="{{ link }}/3?su={{ id }}">3</a>
-        <a class="value" href="{{ link }}/4?su={{ id }}">4</a>
-        <a class="value" href="{{ link }}/5?su={{ id }}">5</a>
-        <a class="value" href="{{ link }}/6?su={{ id }}">6</a>
-        <a class="value" href="{{ link }}/7?su={{ id }}">7</a>
-        <a class="value" href="{{ link }}/8?su={{ id }}">8</a>
-        <a class="value" href="{{ link }}/9?su={{ id }}">9</a>
-        <a class="value" href="{{ link }}/10?su={{ id }}">10</a>
-    </div>
-
-    <br>
-    <br>
-
-    <footer>
-        <strong>&#9734; Sua opinião é muito importante para nós &#9734;</strong>
-        <h3>Equipe &#10084; <strong>NLW</strong></h3>
-    </footer>
-</div>
+</body>
+</html>
