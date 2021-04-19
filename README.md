@@ -2,7 +2,7 @@
 
 <p align="center">
     <a href=""><img src="https://img.shields.io/github/license/FelipePDS/nps"></a> 
-    <img src="https://img.shields.io/static/v1?label=status&message=under+development&color=F36565&style=flat&logo=reverbNation&logoColor=white"/>
+    <img src="https://img.shields.io/static/v1?label=status&message=refactoring&color=yellow&style=flat&logo=reverbNation&logoColor=white"/>
     <img src="https://img.shields.io/github/last-commit/FelipePDS/nps"><br>
     <img src="https://img.shields.io/static/v1?label=server&message=express+|+ts-node&color=3178C6&style=flat&logo=express&logoColor=white">
     <img src="https://img.shields.io/static/v1?label=node&message=v12.18.0&color=339933&style=flat&logo=node.js&logoColor=white"> 
