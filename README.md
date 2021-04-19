@@ -151,10 +151,12 @@ $ npm dev
 # If you have not changed the port, the access URL will be http://localhost:3333/
 ```
 
+<br>
 <p>Para fazer os testes de execução (API Rest) instale o <kbd><a href="https://insomnia.rest/download">Insomnia</a></kbd>. Assim será possível enviar requisições para as rotas...</p>
 
 <blockquote>Take a look at the <kbd><a href="https://github.com/FelipePDS/nps/blob/master/src/router.ts">router.ts</a></kbd> file to check the routes and make requests</blockquote>
 
+<br>
 <p>See what are the parameters needed to make each type of request (and the routes)</p>
 <ul>
     <li>User</li>
@@ -176,7 +178,7 @@ $ npm dev
 <br>
 <h4>:mag: Survey</h4>
 
-``` json
+``` javascript
 /* baseURL/surveys (POST Method) */
 {
    "title": "Give your evaluation:",
@@ -187,7 +189,7 @@ $ npm dev
 <br>
 <h4>:email: Send Mail</h4>
 
-``` json
+``` javascript
 /* baseURL/sendMail (POST Method) */
 {
    "email": "example@mail.com",
@@ -198,6 +200,9 @@ $ npm dev
 <br>
 <h4>:star: NPS Calculate</h4>
 <p><code>baseURL/nps/:survey_id</code> (GET Method)</p>
+
+<br>
+<blockquote><a href="#how-it-works-the-api">See better how it works</a></blockquote>
 
 <br>
 
