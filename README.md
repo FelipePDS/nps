@@ -1,5 +1,11 @@
 # <h1 align="center">NPS</h1>
 
+<h4 align="center">NPS API (Net Promoter Score) <br>Calculation of the NPS of a company, in which it is provided based on the evaluation of the users. The company can calculate the NPS for the diverses subjects it selects. <a href="#about">Learn more</a></h4>
+
+<p align="center">
+    <img src="https://github.com/FelipePDS/nps/blob/master/.github/images/email-banner.JPG"/>
+</p>
+
 <p align="center">
     <a href=""><img src="https://img.shields.io/github/license/FelipePDS/nps"></a> 
     <img src="https://img.shields.io/static/v1?label=status&message=refactoring&color=yellow&style=flat&logo=reverbNation&logoColor=white"/>
@@ -11,8 +17,6 @@
     <img src="https://img.shields.io/github/forks/FelipePDS/nps?style=social">
     <img src="https://img.shields.io/github/stars/FelipePDS/nps?style=social">
 </p>
-
-<h4 align="center">NPS API (Net Promoter Score) <br>Calculation of the NPS of a company, in which it is provided based on the evaluation of the users. The company can calculate the NPS for the diverses subjects it selects. <a href="#about">Learn more</a></h4>
 
 <blockquote>:construction: under development :construction:</blockquote>
 
