@@ -3,7 +3,7 @@
 <h4 align="center">NPS API (Net Promoter Score) <br>Calculation of the NPS of a company, in which it is provided based on the evaluation of the users. The company can calculate the NPS for the diverses subjects it selects. <a href="#about">Learn more</a></h4>
 
 <p align="center">
-    <img src="https://github.com/FelipePDS/nps/blob/master/.github/images/email-banner.JPG"/>
+    <img src="https://github.com/FelipePDS/nps/blob/master/.github/images/email-banner.png"/>
 </p>
 
 <p align="center">
