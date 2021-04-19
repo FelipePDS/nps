@@ -109,9 +109,7 @@
 </p>
 
 <h3 id="how-to-clone-the-api">:open_file_folder: How to Clone</h3>
-<p>
-    To perform your cloning we need the <kbd><a href="">Gitbash</a></kbd> terminal, which we will do using commands that already automate some processes...
-</p>
+<p>To perform your cloning we need the <kbd><a href="https://git-scm.com/downloads">Gitbash</a></kbd> terminal, which we will do using commands that already automate some processes...</p>
 
 ``` bash
 # To clone repository
@@ -140,14 +138,41 @@ $ yarn typeorm:run
 $ npm typeorm:run
 ```
 
-<p>
-    Caso queira mudar a porta de execução do servidor: Vai no arquivo <kbd><a href="https://github.com/FelipePDS/nps/blob/master/.env">.env</a></kbd>, lá mude o <code>3333</code> tanto do <i>PORT</i> quanto do <i>USER_ANSWER_URL_MAIL</i> para a porta que deseja
-</p>
+<blockquote>If you want to change the server's execution port: Go to the  <kbd><a href="https://github.com/FelipePDS/nps/blob/master/.env">.env</a></kbd> file, change <code>3333</code> from both the <i>PORT</i> and <i>USER_ANSWER_URL_MAIL</i> to the port you want</blockquote>
 
 <h3 id="how-to-run-the-api">:key: How to Run</h3>
-<p>
+<p>Before all execute the server:</p>
 
-</p>
+``` bash
+$ yarn dev
+# OR
+$ npm dev
+
+# If you have not changed the port, the access URL will be http://localhost:3333/
+```
+
+<p>Para fazer os testes de execução (API Rest) instale o <kbd><a href="https://insomnia.rest/download">Insomnia</a></kbd>. Assim será possível enviar requisições para as rotas...</p>
+
+<blockquote>Take a look at the <kbd><a href="https://github.com/FelipePDS/nps/blob/master/src/router.ts">router.ts</a></kbd> file to check the routes and make requests</blockquote>
+
+<p>See what are the parameters needed to make each type of request (and the routes)</p>
+<ul>
+    <li>User</li>
+    <li>Survey</li>
+    <li>Send Mail</li>
+    <li>NPS Calculate</li>
+</ul>
+
+<h4>User</h4>
+
+``` json
+// /users
+
+{
+		"name": "testUser",
+		"email": "test@mail.com"
+}
+```
 
 <br>
 
