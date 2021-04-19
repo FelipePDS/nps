@@ -166,7 +166,7 @@ $ npm dev
 <h4>:bust_in_silhouette: User</h4>
 <p>/users (POST Method) <br> (Example):</p>
 
-``` json
+``` javascript
 // users (POST Method)
 {
    "name": "User Example",
