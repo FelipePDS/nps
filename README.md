@@ -108,6 +108,7 @@
     <img width="75%" src="https://github.com/FelipePDS/nps/blob/master/.github/images/data-modeling.png"/>
 </p>
 
+<br>
 <h3 id="how-to-clone-the-api">:open_file_folder: How to Clone</h3>
 <p>To perform your cloning we need the <kbd><a href="https://git-scm.com/downloads">Gitbash</a></kbd> terminal, which we will do using commands that already automate some processes...</p>
 
@@ -119,6 +120,7 @@ $ git clone https://github.com/FelipePDS/nps.git
 $ cd nps
 ```
 
+<br>
 <h3 id="how-to-configure-the-api">:wrench: How to Configure</h3>
 <p>Before all install the dependencies (technologies used):</p>
 
@@ -140,6 +142,7 @@ $ npm typeorm:run
 
 <blockquote>If you want to change the server's execution port: Go to the  <kbd><a href="https://github.com/FelipePDS/nps/blob/master/.env">.env</a></kbd> file, change <code>3333</code> from both the <i>PORT</i> and <i>USER_ANSWER_URL_MAIL</i> to the port you want</blockquote>
 
+<br>
 <h3 id="how-to-run-the-api">:key: How to Run</h3>
 <p>Before all execute the server:</p>
 
@@ -207,9 +210,30 @@ $ npm dev
 <br>
 
 <h1 id="documentation">:books: Documentation (to learn about developing an API)</h1>
-<p>
+<p>Documentation about the development. To download the documentation follow the commands in <kbd><a href="https://git-scm.com/downloads">Gitbash</a></kbd> :octocat:</p>
 
-</p>
+``` bash
+# create a folder with the name of the directorie and enter it
+$ mkdir documentation && cd documentation
+
+# start a git repository to access the repository
+$ git init
+
+# crawl the repositorie
+$ git remote add -f origin https://github.com/FelipePDS/nps
+
+# active sparse checkout
+$ git config core.sparseCheckout true
+
+# Create a file in the path: .git/nps/sparse-checkout
+# And insert the name of the subdirectory you want to clone
+$ echo '.github/documentation/' >> .git/java/sparse-checkout
+
+# pull the subdirectory
+$ git pull origin master
+```
+
+<blockquote>Font: <a href="https://terminalroot.com.br/2019/09/como-clonar-somente-um-subdiretorio-com-git-ou-svn.html">terminalroot.com.br</a></blockquote>
 
 <br>
 
