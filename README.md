@@ -164,13 +164,32 @@ $ npm dev
 </ul>
 
 <h4>User</h4>
+<p>/users</p>
 
-``` javascript
-// /users
-
+``` json
 {
-   "name": "testUser",
-   "email": "test@mail.com"
+   "name": "User Example",
+   "email": "example@mail.com"
+}
+```
+
+<h4>Survey</h4>
+<p>/surveys <br> (Example):</p>
+
+``` json
+{
+   "title": "Give your evaluation:",
+   "description": "From 0 to 10, how much would you recommend Rocketseat?"
+}
+```
+
+<h4>Send Mail</h4>
+<p>/sendMail <br> (Example):</p>
+
+``` json
+{
+   "email": "example@mail.com",
+   "survey_id": "idDeAlgumaPesquisaSalvaNoSistema"
 }
 ```
 
