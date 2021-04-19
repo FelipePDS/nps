@@ -163,8 +163,8 @@ $ npm dev
     <li>NPS Calculate</li>
 </ul>
 
-<h4>User</h4>
-<p>/users</p>
+<h4>:bust_in_silhouette: User</h4>
+<p>/users (Method POST) <br> (Example):</p>
 
 ``` json
 {
@@ -173,8 +173,9 @@ $ npm dev
 }
 ```
 
-<h4>Survey</h4>
-<p>/surveys <br> (Example):</p>
+<br>
+<h4>:mag: Survey</h4>
+<p>/surveys (Method POST) <br> (Example):</p>
 
 ``` json
 {
@@ -183,8 +184,9 @@ $ npm dev
 }
 ```
 
-<h4>Send Mail</h4>
-<p>/sendMail <br> (Example):</p>
+<br>
+<h4>:email: Send Mail</h4>
+<p>/sendMail (Method POST) <br> (Example):</p>
 
 ``` json
 {
@@ -192,6 +194,10 @@ $ npm dev
    "survey_id": "idDeAlgumaPesquisaSalvaNoSistema"
 }
 ```
+
+<br>
+<h4>:star: NPS Calculate</h4>
+<p>/nps/:survey_id (Method GET)</p>
 
 <br>
 
