@@ -235,9 +235,19 @@ $ git pull origin master
 <br>
 
 <h2 id="references">:anchor: References (materials)</h2>
-<p>
+<p>The entire project was developed during the :rocket: RocketSeat NLW event, and was aided through documentation as well...</p>
 
-</p>
+<ul>
+    <li><a href="https://www.npmjs.com/">NPM</a> or <a href="https://yarnpkg.com/">Yarn</a></li>
+    <li><a href="https://www.npmjs.com/package/ts-node">ts-node</a></li>
+    <li><a href="https://expressjs.com/pt-br/">Express</a></li>
+    <li><a href="https://typeorm.io/">Typeorm</a></li>
+    <li><a href="https://www.npmjs.com/package/reflect-metadata">Reflect Metadata</a></li>
+    <li><a href="https://www.npmjs.com/package/uuid">UUID</a></li>
+    <li><a href="https://nodemailer.com/">Nodemailer</a></li>
+    <li><a href="https://jestjs.io/pt-BR/">Jest Tests</a></li>
+    <li><a href="https://www.npmjs.com/package/yup">Yup</a></li>
+</ul>
 
 <br>
 
