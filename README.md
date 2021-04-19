@@ -164,7 +164,7 @@ $ npm dev
 </ul>
 
 <h4>:bust_in_silhouette: User</h4>
-<p>/users (Method POST) <br> (Example):</p>
+<p>/users (POST Method) <br> (Example):</p>
 
 ``` json
 {
@@ -175,7 +175,7 @@ $ npm dev
 
 <br>
 <h4>:mag: Survey</h4>
-<p>/surveys (Method POST) <br> (Example):</p>
+<p>/surveys (POST Method) <br> (Example):</p>
 
 ``` json
 {
@@ -186,7 +186,7 @@ $ npm dev
 
 <br>
 <h4>:email: Send Mail</h4>
-<p>/sendMail (Method POST) <br> (Example):</p>
+<p>/sendMail (POST Method) <br> (Example):</p>
 
 ``` json
 {
@@ -197,7 +197,7 @@ $ npm dev
 
 <br>
 <h4>:star: NPS Calculate</h4>
-<p>/nps/:survey_id (Method GET)</p>
+<p>/nps/:survey_id (GET Method)</p>
 
 <br>
 
