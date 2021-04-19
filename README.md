@@ -167,6 +167,7 @@ $ npm dev
 <p>/users (POST Method) <br> (Example):</p>
 
 ``` json
+/* /users (POST Method) */
 {
    "name": "User Example",
    "email": "example@mail.com"
