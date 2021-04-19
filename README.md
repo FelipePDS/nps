@@ -114,13 +114,13 @@
 </p>
 
 ``` bash
-    # To clone repository
-    $ git clone https://github.com/FelipePDS/nps.git
+# To clone repository
+$ git clone https://github.com/FelipePDS/nps.git
     
-    # Install used dependencies
-    $ npm install
-    # If you have the yarn package manager
-    $ yarn add
+# Install used dependencies
+$ npm install
+# If you have the yarn package manager
+$ yarn add
 ```
 
 <h3 id="how-to-configure-the-api">:wrench: How to Configure</h3>
