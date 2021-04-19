@@ -113,7 +113,7 @@
     To perform your cloning we need the <kdb><a href="">Gitbash</a></kdb> terminal, which we will do using commands that already automate some processes...
 </p>
 
-``` gitbash
+``` bash
     # To clone repository
     $ git clone https://github.com/FelipePDS/nps.git
     
