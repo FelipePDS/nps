@@ -116,17 +116,20 @@
 ``` bash
 # To clone repository
 $ git clone https://github.com/FelipePDS/nps.git
-    
-# Install used dependencies
-$ npm install
-# Or
-$ yarn add
 
 # Open
 $ cd nps
 ```
 
 <h3 id="how-to-configure-the-api">:wrench: How to Configure</h3>
+<p>Before all install the dependencies (technologies used):</p>
+
+``` bash
+$ yarn add
+# OR
+$ npm install
+```
+
 <p>
     Caso queira mudar a porta de execução do servidor: Vai no arquivo <kbd><a href="https://github.com/FelipePDS/nps/blob/master/.env">.env</a></kbd>, lá mude o <code>3333</code> tanto do <i>PORT</i> quanto do <i>USER_ANSWER_URL_MAIL</i> para a porta que deseja
 </p>
