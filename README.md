@@ -165,12 +165,12 @@ $ npm dev
 
 <h4>User</h4>
 
-``` json
+``` javascript
 // /users
 
 {
-		"name": "testUser",
-		"email": "test@mail.com"
+   "name": "testUser",
+   "email": "test@mail.com"
 }
 ```
 
