@@ -102,16 +102,26 @@
 <h2 id="use-api">:speech_balloon: Use API</h2>
 <p>
     Before we see how to use the API, let's understand a little bit about some things about it
-    <br>
+    <br><br>
     :game_die: See data modeling to understand a little about its structure:
-    <br>
+    <br><br>
     <img src="https://github.com/FelipePDS/nps/blob/master/.github/images/data-modeling.png"/>
 </p>
 
 <h3 id="how-to-clone-the-api">:open_file_folder: How to Clone</h3>
 <p>
-
+    To perform your cloning we need the <kdb><a href="">Gitbash</a></kdb> terminal, which we will do using commands that already automate some processes...
 </p>
+
+``` gitbash
+    # To clone repository
+    $ git clone https://github.com/FelipePDS/nps.git
+    
+    # Install used dependencies
+    $ npm install
+    # If you have the yarn package manager
+    $ yarn add
+```
 
 <h3 id="how-to-configure-the-api">:wrench: How to Configure</h3>
 <p>
