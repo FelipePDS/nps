@@ -62,7 +62,7 @@
 
 <h3 id="how-it-works-the-api">Example of How it Works</h3>
 <p>
-
+    <img width="300px" src="https://github.com/FelipePDS/nps/blob/master/.github/gif/example-of-it-works.gif"/>
 </p>
 
 <br>
