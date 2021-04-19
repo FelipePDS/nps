@@ -98,6 +98,7 @@
 <br>
 
 <h2 id="use-api">:speech_balloon: Use API</h2>
+<p>Before we see how to use the API, let's understand a little bit about some things about it</p>
 
 <h3 id="how-to-clone-the-api">:open_file_folder: How to Clone</h3>
 <p>
