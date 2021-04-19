@@ -18,8 +18,6 @@
     <img src="https://img.shields.io/github/stars/FelipePDS/nps?style=social">
 </p>
 
-<blockquote>:construction: under development :construction:</blockquote>
-
 <br>
 
 <h2>:pushpin: Topics</h2>
@@ -102,7 +100,13 @@
 <br>
 
 <h2 id="use-api">:speech_balloon: Use API</h2>
-<p>Before we see how to use the API, let's understand a little bit about some things about it</p>
+<p>
+    Before we see how to use the API, let's understand a little bit about some things about it
+    <br>
+    :game_die: See data modeling to understand a little about its structure:
+    <br>
+    <img src="https://github.com/FelipePDS/nps/blob/master/.github/images/data-modeling.png"/>
+</p>
 
 <h3 id="how-to-clone-the-api">:open_file_folder: How to Clone</h3>
 <p>
