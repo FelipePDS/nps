@@ -62,7 +62,7 @@
 
 <h3 id="how-it-works-the-api">Example of How it Works</h3>
 <p>
-
+    <img src="https://github.com/FelipePDS/nps/blob/master/.github/gif/example-of-it-works.gif"/>
 </p>
 
 <br>
@@ -98,6 +98,7 @@
 <br>
 
 <h2 id="use-api">:speech_balloon: Use API</h2>
+<p>Before we see how to use the API, let's understand a little bit about some things about it</p>
 
 <h3 id="how-to-clone-the-api">:open_file_folder: How to Clone</h3>
 <p>
@@ -132,7 +133,7 @@
 
 <h2 id="author">:man: Author</h2>
 <p><img width="100px" src="https://avatars.githubusercontent.com/u/64941387?s=400&u=a9c0d7a657b0b0b644d41cd88966e0a89d0a67a6&v=4"/></p>
-<p>This repository and documentation was made by <a href="https://felipepds.github.io/felipepds-resume/">FelipePDS</a> :star2:</p>
+<p>This repository and documentation was made by <a href="https://felipepds.github.io">FelipePDS</a> :star2:</p>
 <p><a href="https://www.linkedin.com/in/felipe-p-da-silva-a55b891ba/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BiErPy3g7Q1KGOaD%2BsGw%2Fpg%3D%3D"><img src="https://img.shields.io/static/v1?label=+&message=Felipe+P.+Da+Silva&color=0A66C2&style=flat&logo=linkedin&logoColor=white"/></a> <a href="https://twitter.com/FelipePintoDaS1"><img src="https://img.shields.io/static/v1?label=+&message=@FelipePintoDaS1&color=1DA1F2&style=flat&logo=twitter&logoColor=white"/></a> <img src="https://img.shields.io/static/v1?label=+&message=felipepdasilva66@gmail.com&color=EA4335&style=flat&logo=gmail&logoColor=white"/></p>
 
 <br>
