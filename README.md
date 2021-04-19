@@ -82,6 +82,7 @@
     </ul>
     <li>Send Mail: <a href="">Nodemailer</a></li>
     <li>Tests: <a href="">Jest Tests</a></li>
+    <li>API Validation: <a href="">Yup</a></li>
 </ul>
 <p>→ Check the file: <kbd><a href="">package.json</a></kbd></p>
 
