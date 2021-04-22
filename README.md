@@ -131,7 +131,7 @@ $ npm install
 <p>Run the Database:</p>
 
 ``` bash
-# Execução feita com o typeorm
+# Execution made with Typeorm (run the migrations and the database)
 
 $ yarn typeorm:run
 # OR
