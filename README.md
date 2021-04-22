@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-    <a href=""><img src="https://img.shields.io/github/license/FelipePDS/nps"></a> 
+    <a href="https://github.com/FelipePDS/nps/blob/master/LICENSE"><img src="https://img.shields.io/github/license/FelipePDS/nps"></a> 
     <img src="https://img.shields.io/static/v1?label=status&message=refactoring&color=yellow&style=flat&logo=reverbNation&logoColor=white"/>
     <img src="https://img.shields.io/github/last-commit/FelipePDS/nps"><br>
     <img src="https://img.shields.io/github/repo-size/FelipePDS/nps"/>
