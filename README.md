@@ -225,7 +225,7 @@ $ git config core.sparseCheckout true
 
 # Create a file in the path: .git/nps/sparse-checkout
 # And insert the name of the subdirectory you want to clone
-$ echo '.github/documentation/' >> .git/java/sparse-checkout
+$ echo '.github/documentation/' >> .git/nps/sparse-checkout
 
 # pull the subdirectory
 $ git pull origin master
