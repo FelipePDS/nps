@@ -133,9 +133,9 @@ $ npm install
 ``` bash
 # Execution made with Typeorm (run the migrations and the database)
 
-$ yarn typeorm:run
+$ yarn typeorm migration:run
 # OR
-$ npm typeorm:run
+$ npm run typeorm migration:run
 ```
 
 <blockquote>If you want to change the server's execution port: Go to the  <kbd><a href="https://github.com/FelipePDS/nps/blob/master/.env">.env</a></kbd> file, change <code>3333</code> from both the <i>PORT</i> and <i>USER_ANSWER_URL_MAIL</i> to the port you want</blockquote>
